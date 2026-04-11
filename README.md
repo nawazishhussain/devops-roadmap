@@ -4,7 +4,7 @@
 Computer Science student building production-level DevOps skills from scratch.
 
 ## Objective
-Become a job-ready DevOps Engineer capable of managing cloud-native infrastructure and secure a remote $100,000+ role by the end of 2026.
+Become a job-ready DevOps Engineer capable of managing cloud-native infrastructure by the end of 2026.
 
 ## Core Stack Focus
 - Linux System Administration
