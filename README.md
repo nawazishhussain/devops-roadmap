@@ -26,9 +26,9 @@ Become a job-ready DevOps Engineer capable of managing cloud-native infrastructu
 
 | Week | Dates | Focus | Status |
 |------|--------|--------|---------|
-| 1 | Feb 20 – Feb 26 | Linux Foundations | In Progress |
-| 2 | Feb 27 – Mar 5 | Networking + SSH | Pending |
-| 3 | Mar 6 – Mar 12 | AWS Fundamentals | Pending |
+| 1 | Feb 20 – Feb 26 | Linux Foundations | Completed |
+| 2 | Feb 27 – Mar 5 | Networking + SSH | Completed |
+| 3 | Mar 6 – Mar 12 | AWS Fundamentals | In Progress |
 
 ## Repository Structure (Planned)
 
