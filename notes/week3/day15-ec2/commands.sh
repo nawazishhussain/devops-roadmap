@@ -9,4 +9,4 @@ ssh -i ~/.ssh/devops-key.pem ubuntu@<your-public-ip>
 python3 -m http.server 8000
 
 # Create HTML file
-echo "<h1>Hello from AWS DevOps 🚀</h1>" > index.html
+echo "Hello AWS" > index.html
