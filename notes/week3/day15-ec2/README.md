@@ -1,19 +1,44 @@
-# Day 15 - AWS EC2 + HTTP Server
+# Day 15 - EC2 + HTTP Server
 
 ## Objective
-Launch an EC2 instance and host a simple web server.
+Deploy a server on AWS EC2 and expose it publicly.
 
-## Steps Performed
+## Architecture
+Client → Internet → AWS Security Group → EC2 → Python HTTP Server
 
-### 1. EC2 Setup
-- Launched Ubuntu 22.04 instance
-- Instance type: t3.micro
-- Key pair created and downloaded
+## Steps
+
+### 1. Launch EC2
+- Ubuntu 22.04
+- t3.micro
 
 ### 2. Security Group
-- Allowed SSH (port 22)
-- Allowed HTTP custom port (8000)
+- Port 22 (SSH)
+- Port 8000 (HTTP)
 
-### 3. SSH Connection
-```bash
+### 3. SSH
 ssh -i devops-key.pem ubuntu@<public-ip>
+
+### 4. Run Server
+python3 -m http.server 8000
+
+### 5. Test
+http://<public-ip>:8000
+
+## Errors Faced
+
+### Issue 1: Couldn't connect to server
+**Cause:** Port 8000 not allowed  
+**Fix:** Added rule in security group  
+
+### Issue 2: File not found (404)
+**Cause:** No index.html  
+**Fix:** Created file  
+
+## Learnings
+- Security groups act as firewall  
+- 0.0.0.0 vs localhost matters  
+- Logs show real traffic  
+
+## Proof
+(Add screenshots or logs)
