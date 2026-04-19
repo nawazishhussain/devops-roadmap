@@ -4,7 +4,7 @@
 Computer Science student building production-level DevOps skills from scratch.
 
 ## Objective
-Become a job-ready DevOps Engineer capable of managing cloud-native infrastructure by the end of 2026.
+Become a job-ready DevOps Engineer capable of managing cloud-native infrastructure.
 
 ## Core Stack Focus
 - Linux System Administration
@@ -24,11 +24,28 @@ Become a job-ready DevOps Engineer capable of managing cloud-native infrastructu
 
 ## Weekly Progress Tracker
 
-| Week | Dates | Focus | Status |
-|------|--------|--------|---------|
-| 1 | Feb 20 – Feb 26 | Linux Foundations | Completed |
-| 2 | Feb 27 – Mar 5 | Networking + SSH | Completed |
-| 3 | Mar 6 – Mar 12 | AWS Fundamentals | In Progress |
+## Core Stack Progress
+
+* [x] Linux System Administration
+
+* [x] Networking Fundamentals
+
+* [ ] AWS Cloud Infrastructure (Basics: EC2, Security Groups, SSH)
+
+* [ ] Nginx & Web Servers
+
+* [ ] Docker & Containerization
+
+* [ ] Kubernetes & Helm
+
+* [ ] Terraform (Infrastructure as Code)
+
+* [ ] CI/CD (GitHub Actions, Jenkins)
+
+* [ ] Monitoring & Observability (Prometheus, Grafana)
+
+* [ ] DevSecOps & Security Practices
+
 
 ## Repository Structure (Planned)
 
