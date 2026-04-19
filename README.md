@@ -1,10 +1,10 @@
-# DevOps Engineering Roadmap – 2026
+# DevOps Engineering Roadmap
 
 ## About Me
 Computer Science student building production-level DevOps skills from scratch.
 
 ## Objective
-Become a job-ready DevOps Engineer capable of managing cloud-native infrastructure.
+Become a job-ready DevOps Engineer capable of managing cloud-native infrastructure through hands-on projects and real-world practice.
 
 ## Core Stack Focus
 - Linux System Administration
@@ -45,17 +45,3 @@ Become a job-ready DevOps Engineer capable of managing cloud-native infrastructu
 * [ ] Monitoring & Observability (Prometheus, Grafana)
 
 * [ ] DevSecOps & Security Practices
-
-
-## Repository Structure (Planned)
-
-notes/
-scripts/
-terraform/
-kubernetes/
-cicd/
-monitoring/
-
----
-
-This repository documents real hands-on work. No theory-only notes.
